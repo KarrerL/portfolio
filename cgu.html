@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Conditions générales d'utilisation — Loïc Karrer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="header" class="scrolled">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Loïc<span>.</span>K</a>
+    <ul class="nav-links">
+      <li><a href="index.html#hero">Accueil</a></li>
+      <li><a href="index.html#about">Moi</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="index.html#services">Freelance</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn--solid nav-cta">Me contacter</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="index.html#hero">Accueil</a>
+  <a href="index.html#about">Moi</a>
+  <a href="projets.html">Projets</a>
+  <a href="index.html#services">Freelance</a>
+  <a href="index.html#contact">Contact</a>
+</nav>
+
+<main class="legal-page">
+  <div class="wrap legal-wrap">
+    <h1>Conditions générales d'utilisation</h1>
+    <p class="legal-updated">Dernière mise à jour : Juin 2026</p>
+
+    <p>Les présentes conditions générales d'utilisation (CGU) encadrent l'accès et l'utilisation du présent site, le portfolio de Loïc Karrer. En naviguant sur le site, l'utilisateur reconnaît avoir pris connaissance des présentes CGU et les accepter.</p>
+
+    <h2>1. Objet du site</h2>
+    <p>Le site a pour objet de présenter le parcours, les compétences et les réalisations de Loïc Karrer, et de permettre la prise de contact ainsi que la demande de devis pour des prestations de création graphique et web.</p>
+
+    <h2>2. Accès au site</h2>
+    <p>Le site est accessible gratuitement à tout utilisateur disposant d'un accès à Internet. L'éditeur s'efforce d'assurer la disponibilité du site mais ne saurait être tenu responsable d'une interruption, notamment pour maintenance, mise à jour ou cas de force majeure.</p>
+
+    <h2>3. Propriété intellectuelle</h2>
+    <p>Les contenus du site (textes, structure, mise en page, identité visuelle) sont protégés et demeurent la propriété de Loïc Karrer, sauf mention contraire. Toute reproduction sans autorisation préalable est interdite. Les logos des projets présentés appartiennent à leurs titulaires respectifs.</p>
+
+    <h2>4. Données personnelles</h2>
+    <p>Le traitement des données collectées via le formulaire de demande de devis est détaillé dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+    <h2>5. Liens externes</h2>
+    <p>Le site peut contenir des liens vers des sites tiers (projets en ligne, réseaux sociaux). L'éditeur n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leur disponibilité.</p>
+
+    <h2>6. Responsabilité</h2>
+    <p>Les informations présentées sur le site sont fournies à titre indicatif. L'éditeur ne saurait être tenu responsable d'éventuelles erreurs, d'une indisponibilité temporaire ou d'un usage inapproprié du site par l'utilisateur.</p>
+
+    <h2>7. Droit applicable</h2>
+    <p>Les présentes CGU sont régies par le droit français. Tout litige relatif à leur interprétation ou à leur exécution relève des juridictions françaises compétentes.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <a href="index.html" class="logo">Loïc<span>.</span>K</a>
+    <div class="footer-social">
+      <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="mailto:loickarrer@gmail.com">Email ↗</a>
+    </div>
+  </div>
+  <div class="footer-copy wrap">
+    <nav class="footer-legal">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgv.html">CGV</a>
+      <a href="cgu.html">CGU</a>
+      <a href="confidentialite.html">Politique de confidentialité</a>
+    </nav>
+    © <span id="year"></span> Loïc Karrer — Tous droits réservés.
+  </div>
+</footer>
+
+<script>
+(function(){
+  var burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){menu.classList.toggle('open');});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');});});
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
