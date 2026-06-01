@@ -153,7 +153,7 @@ header.scrolled{background:rgba(246,243,238,.82);backdrop-filter:blur(14px);box-
 .about-link:hover .arrow{transform:translate(3px,-3px)}
 
 /* PROJETS — aperçu sur l'accueil (3 cartes qui mènent à la page projets) */
-.proj-teasers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:42px}
+.proj-teasers{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:42px}
 .teaser{
   display:flex;flex-direction:column;gap:.7rem;min-height:210px;
   border:1px solid var(--line);border-radius:18px;padding:28px;background:#fbf9f5;
@@ -313,6 +313,7 @@ footer{background:var(--ink);color:var(--on-dark-2);border-top:1px solid rgba(25
 .marquee-track{display:flex;gap:22px;width:max-content;padding:4px clamp(20px,5vw,48px)}
 .scard{flex:0 0 clamp(240px,72vw,300px);background:#fbf9f5;border:1px solid var(--line);border-radius:18px;overflow:hidden;cursor:inherit;scroll-snap-align:start}
 .scard-visual{aspect-ratio:16/10;background:var(--paper);display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line)}
+.scard-visual img{width:100%;height:100%;object-fit:contain;padding:14px}
 .scard-visual .ph{font-family:var(--font-display);font-weight:800;font-size:2rem;color:rgba(22,17,15,.16)}
 .scard-body{padding:20px 22px}
 .scard h3{font-family:var(--font-display);font-weight:700;letter-spacing:-.01em;font-size:1.15rem;margin-bottom:.35em}
@@ -366,6 +367,7 @@ footer{background:var(--ink);color:var(--on-dark-2);border-top:1px solid rgba(25
   .proj-layout{grid-template-columns:1fr}
   .fiche{position:static;order:-1}
   .gallery{grid-template-columns:1fr}
+  .proj-teasers{grid-template-columns:repeat(2,1fr)}
   /* espacement haut uniforme sous le header sur toutes les pages */
   .viewer-page,.project-page,.legal-page{padding-top:108px}
   /* la visionneuse s'aligne en haut dès que les slides s'empilent */
