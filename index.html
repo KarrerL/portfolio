@@ -229,7 +229,7 @@
 
 <!-- ============ MODALE — FORMULAIRE DE DEVIS ============ -->
 <!-- Envoi via Netlify Forms. Les réponses arrivent dans Netlify > Forms,
-     et par mail une fois la notification activée (voir guide). -->
+     et par mail une fois la notification activée. -->
 <div class="modal" id="devisModal" role="dialog" aria-modal="true" aria-labelledby="devisTitle">
   <div class="modal-overlay" data-close></div>
   <div class="modal-card">
@@ -239,9 +239,9 @@
       <h3 id="devisTitle">Demander un devis</h3>
       <p class="modal-sub">Décrivez votre projet en quelques champs, je reviens vers vous rapidement.</p>
 
-      <form action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST" id="devisForm">
-        <input type="hidden" name="_subject" value="Nouvelle demande de devis — portfolio">
-        <p hidden><label>Ne pas remplir : <input name="_gotcha"></label></p>
+      <form name="devis" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="devisForm">
+        <input type="hidden" name="form-name" value="devis">
+        <p hidden><label>Ne pas remplir : <input name="bot-field"></label></p>
 
         <div class="field-row">
           <div class="field">
@@ -376,9 +376,9 @@
     form.addEventListener('submit', function(e){
       e.preventDefault();
       var data = new FormData(form);
-      fetch(form.action, { method:'POST', body:data, headers:{'Accept':'application/json'} })
-        .then(function(res){
-          if(!res.ok) throw new Error('bad response');
+      var body = new URLSearchParams(data).toString();
+      fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: body })
+        .then(function(){
           document.getElementById('devisFormWrap').hidden = true;
           document.getElementById('devisSuccess').hidden = false;
         })
