@@ -382,10 +382,11 @@ footer{background:var(--ink);color:var(--on-dark-2);border-top:1px solid rgba(25
   .viewer-head{margin-bottom:26px}
   .slide{gap:24px}
   /* footer : tout centré et empilé sur mobile */
-  .footer-row{flex-direction:column;align-items:center;text-align:center;gap:1.1rem;padding:2rem 0}
-  .footer-social{gap:1.8rem}
-  .footer-legal{gap:.55rem 1.1rem;margin-bottom:.9rem}
-  .footer-copy{padding:1.3rem 0}
+  .footer-row{flex-direction:column;align-items:center;text-align:center;gap:1.2rem;padding:2.6rem 0 0}
+  .footer-social{gap:2rem;font-size:.95rem}
+  .footer-copy{padding:1.8rem 0 2.2rem;margin-top:2rem;line-height:1.8}
+  .footer-legal{gap:.9rem 1.3rem;margin-bottom:1.3rem;line-height:1.7}
+  .footer-legal a{font-size:.9rem}
 }
 /* Mobile */
 @media(max-width:480px){
