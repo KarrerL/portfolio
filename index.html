@@ -122,8 +122,12 @@
     <!-- ⬇ À MODIFIER : ta photo. Remplace tout ce <div> par :
          <img src="ma-photo.jpg" alt="Loïc Karrer" class="hero-photo"> -->
     <div class="hero-photo reveal d1">
-      <span class="mono">LK</span>
-      <span class="ph-note">Votre photo ici</span>
+      <div class="hero-slideshow" role="img" aria-label="Photos de Loïc Karrer">
+        <img src="https://i.imgur.com/tLniBxB.jpeg" alt="Loïc Karrer" class="hero-slide is-active" loading="eager">
+        <img src="https://i.imgur.com/LNPb0n7.jpeg" alt="Loïc Karrer" class="hero-slide" loading="lazy">
+        <img src="https://i.imgur.com/meSReDD.jpeg" alt="Loïc Karrer" class="hero-slide" loading="lazy">
+        <img src="https://i.imgur.com/Dknhe94.jpeg" alt="Loïc Karrer" class="hero-slide" loading="lazy">
+      </div>
     </div>
   </div>
 </section>
@@ -435,6 +439,19 @@
   }
 
   document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero-slideshow .hero-slide');
+  if (slides.length < 2) return;
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var i = 0;
+  setInterval(function(){
+    slides[i].classList.remove('is-active');
+    i = (i + 1) % slides.length;
+    slides[i].classList.add('is-active');
+  }, 4000);
 })();
 </script>
 <script src="i18n.js"></script>
