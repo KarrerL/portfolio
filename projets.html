@@ -158,17 +158,45 @@
     </div>
   </div>
 
-  <!-- ⬇ À MODIFIER : titres + tags. Glisse pour faire défiler.
-       Remplace <span class="ph">..</span> par <img src="..." alt=""> pour un vrai visuel. -->
-  <div class="marquee">
-    <div class="marquee-track">
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/Onbvire.png" alt="Logo Frigo16"></div><div class="scard-body"><h3>Frigo16</h3><p class="scard-tags">Logo · Concept</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/eS92RNh.png" alt="Logo Azur Padel"></div><div class="scard-body"><h3>Azur Padel</h3><p class="scard-tags">Logo</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/t7mGUbX.jpeg" alt="Affiche du film Bogota"></div><div class="scard-body"><h3>Bogota</h3><p class="scard-tags">Affiche de film · Concept</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/mh94ggJ.jpeg" alt="Affiche du spectacle The Last Dance"></div><div class="scard-body"><h3>The Last Dance</h3><p class="scard-tags">Affiche de spectacle · Concept</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/mpyENpu.png" alt="Affiche du concert Bunker"></div><div class="scard-body"><h3>Bunker</h3><p class="scard-tags">Affiche de concert · Concept</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/lUXZP52.png" alt="Affiche du concert Depeche Mode"></div><div class="scard-body"><h3>Depeche Mode</h3><p class="scard-tags">Affiche de concert · Concept</p></div></div>
-      <div class="scard"><div class="scard-visual"><img src="https://i.imgur.com/HEdC10w.png" alt="Affiche Meet &amp; Greet Alice Oseman"></div><div class="scard-body"><h3>Meet &amp; Greet — Alice Oseman</h3><p class="scard-tags">Affiche · Concept</p></div></div>
+<style>
+  #secondary .sviewer{position:relative}
+  #secondary .sstage{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #secondary .sstage::-webkit-scrollbar{display:none}
+  #secondary .sstage.dragging{cursor:grabbing}
+  #secondary .sslide{flex:0 0 100%;scroll-snap-align:center;display:flex;justify-content:center;padding:8px 16px;box-sizing:border-box}
+  #secondary .scard2{width:min(440px,100%);background:#fff;border:1px solid rgba(22,17,15,.12);border-radius:18px;overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.08)}
+  #secondary .scard2-visual{aspect-ratio:4/3;background:#f3efe8;display:flex;align-items:center;justify-content:center}
+  #secondary .scard2-visual img{width:100%;height:100%;object-fit:contain;padding:20px;box-sizing:border-box}
+  #secondary .scard2-body{padding:18px 22px 22px;text-align:center}
+  #secondary .scard2-body h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.5rem;letter-spacing:-.02em;color:#15171c;margin:0 0 4px}
+  #secondary .scard2-tags{margin:0;color:#6f675f;font-size:.95rem}
+  #secondary .snav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:24px}
+  #secondary .arrowb{width:46px;height:46px;border-radius:999px;border:1px solid rgba(22,17,15,.2);background:#fff;color:#15171c;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .2s,opacity .2s;flex:none}
+  #secondary .arrowb:hover{border-color:#fc1d34}
+  #secondary .arrowb:disabled{opacity:.3;cursor:default}
+  #secondary .arrowb svg{width:18px;height:18px}
+  #secondary .sdots{display:flex;gap:9px;align-items:center}
+  #secondary .sdot{width:8px;height:8px;border-radius:999px;border:0;background:rgba(22,17,15,.22);padding:0;cursor:pointer;transition:width .25s,background .25s}
+  #secondary .sdot.active{background:#fc1d34;width:22px}
+  #secondary .scount{display:block;text-align:center;margin-top:12px;color:#6f675f;font-size:.9rem;font-variant-numeric:tabular-nums}
+</style>
+  <div class="wrap">
+    <div class="sviewer">
+      <div class="sstage" id="sStage">
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/Onbvire.png" alt="Logo Frigo16" loading="lazy"></div><div class="scard2-body"><h3>Frigo16</h3><p class="scard2-tags">Logo · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/eS92RNh.png" alt="Logo Azur Padel" loading="lazy"></div><div class="scard2-body"><h3>Azur Padel</h3><p class="scard2-tags">Logo</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/t7mGUbX.jpeg" alt="Affiche du film Bogota" loading="lazy"></div><div class="scard2-body"><h3>Bogota</h3><p class="scard2-tags">Affiche de film · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/mh94ggJ.jpeg" alt="Affiche du spectacle The Last Dance" loading="lazy"></div><div class="scard2-body"><h3>The Last Dance</h3><p class="scard2-tags">Affiche de spectacle · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/mpyENpu.png" alt="Affiche du concert Bunker" loading="lazy"></div><div class="scard2-body"><h3>Bunker</h3><p class="scard2-tags">Affiche de concert · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/lUXZP52.png" alt="Affiche du concert Depeche Mode" loading="lazy"></div><div class="scard2-body"><h3>Depeche Mode</h3><p class="scard2-tags">Affiche de concert · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/HEdC10w.png" alt="Affiche Meet &amp; Greet Alice Oseman" loading="lazy"></div><div class="scard2-body"><h3>Meet &amp; Greet — Alice Oseman</h3><p class="scard2-tags">Affiche · Concept</p></div></div></div>
+      </div>
+      <div class="snav">
+        <button class="arrowb" id="sPrev" aria-label="Précédent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="sdots" id="sDots"></div>
+        <button class="arrowb" id="sNext" aria-label="Suivant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+      <span class="scount"><span id="sCur">01</span> / <span id="sTotal">07</span></span>
     </div>
   </div>
 </section>
@@ -275,9 +303,49 @@
     window.addEventListener('resize', function(){ stage.scrollLeft = i * stage.clientWidth; });
   }
 
-  /* ---- Carrousel secondaire (glissable, non cliquable) ---- */
-  var marquee = document.querySelector('.marquee');
-  if(marquee) enableDrag(marquee);
+  /* ---- Carrousel secondaire (projet par projet) ---- */
+  var ss = document.getElementById('sStage');
+  if(ss){
+    var sslides = Array.prototype.slice.call(ss.querySelectorAll('.sslide'));
+    var sTotal = sslides.length, si = 0, sraf = null;
+    var spad = function(n){ return String(n).padStart(2,'0'); };
+    var sCur = document.getElementById('sCur');
+    var sTot = document.getElementById('sTotal');
+    var sPrev = document.getElementById('sPrev');
+    var sNext = document.getElementById('sNext');
+    var sDotsWrap = document.getElementById('sDots');
+    if(sTot) sTot.textContent = spad(sTotal);
+
+    var sdots = [];
+    for(var k=0;k<sTotal;k++){ (function(idx){
+      var b = document.createElement('button');
+      b.className = 'sdot'; b.type = 'button';
+      b.setAttribute('aria-label','Projet '+(idx+1));
+      b.addEventListener('click', function(){ sGoTo(idx); });
+      sDotsWrap.appendChild(b); sdots.push(b);
+    })(k); }
+
+    function sSync(){
+      si = Math.max(0, Math.min(sTotal-1, Math.round(ss.scrollLeft / ss.clientWidth)));
+      sdots.forEach(function(d,idx){ d.classList.toggle('active', idx === si); });
+      if(sCur) sCur.textContent = spad(si+1);
+      if(sPrev) sPrev.disabled = (si === 0);
+      if(sNext) sNext.disabled = (si === sTotal-1);
+    }
+    function sGoTo(n){
+      n = Math.max(0, Math.min(sTotal-1, n));
+      ss.scrollTo({ left: n * ss.clientWidth, behavior: 'smooth' });
+    }
+    ss.addEventListener('scroll', function(){
+      if(sraf) return;
+      sraf = requestAnimationFrame(function(){ sraf=null; sSync(); });
+    }, {passive:true});
+    if(sPrev) sPrev.addEventListener('click', function(){ sGoTo(si-1); });
+    if(sNext) sNext.addEventListener('click', function(){ sGoTo(si+1); });
+    enableDrag(ss, function(){ sGoTo(Math.round(ss.scrollLeft / ss.clientWidth)); });
+    requestAnimationFrame(function(){ ss.scrollLeft = 0; sSync(); });
+    window.addEventListener('resize', function(){ ss.scrollLeft = si * ss.clientWidth; });
+  }
 
   document.getElementById('year').textContent = new Date().getFullYear();
 })();
