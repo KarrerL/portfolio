@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projets — Loïc Karrer | Design graphique &amp; web</title>
+<!-- SEO -->
+<meta name="description" content="Les projets de Loïc Karrer : refontes de sites, identités de marque et créations graphiques réalisées pour des structures réelles." />
+<link rel="canonical" href="https://www.loickarrer.cloud/projets/" />
+<meta name="author" content="Loïc Karrer" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#15171c" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Loïc Karrer — Portfolio" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Projets — Loïc Karrer | Design graphique &amp; web" />
+<meta property="og:description" content="Les projets de Loïc Karrer : refontes de sites, identités de marque et créations graphiques réalisées pour des structures réelles." />
+<meta property="og:url" content="https://www.loickarrer.cloud/projets/" />
+<meta property="og:image" content="https://www.loickarrer.cloud/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Loïc Karrer — Portfolio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Projets — Loïc Karrer | Design graphique &amp; web" />
+<meta name="twitter:description" content="Les projets de Loïc Karrer : refontes de sites, identités de marque et créations graphiques réalisées pour des structures réelles." />
+<meta name="twitter:image" content="https://www.loickarrer.cloud/og-image.png" />
+<!-- /SEO -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+<!-- ============ HEADER ============ -->
+<header id="header" class="scrolled">
+  <div class="wrap nav">
+    <a href="/" class="logo">Loïc<span>.</span>K</a>
+    <ul class="nav-links">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/#about">Moi</a></li>
+      <li><a href="/projets/" class="current">Projets</a></li>
+      <li><a href="/#services">Freelance</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+    <a href="/#contact" class="btn btn--solid nav-cta">Me contacter</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="/">Accueil</a>
+  <a href="/#about">Moi</a>
+  <a href="/projets/">Projets</a>
+  <a href="/#services">Freelance</a>
+  <a href="/#contact">Contact</a>
+</nav>
+
+<!-- ============ VISIONNEUSE PROJETS ============ -->
+<main class="viewer-page">
+  <div class="wrap viewer">
+
+    <div class="viewer-head">
+      <span class="eyebrow">Portfolio</span>
+      <h1>Mes projets, un par un.</h1>
+    </div>
+
+    <div class="viewer-stage">
+
+      <!-- ===== PROJET 1 ===== -->
+      <article class="slide active">
+        <div class="slide-visual"><img src="https://i.imgur.com/XFcqDjp.png" alt="Logo Pôle Santé Antibes Centre"></div>
+        <div class="slide-body">
+          <p class="slide-index">Projet 01</p>
+          <h2>Pôle Santé Antibes</h2>
+          <div class="slide-tags"><span class="tag">UX/UI</span><span class="tag">Refonte</span><span class="tag">Web</span></div>
+          <p>Refonte complète du site d'un pôle paramédical — kiné, ostéo et médecins du sport — réalisée pendant un stage de deux mois, aux côtés du directeur.</p>
+          <a href="/projet-1/" class="slide-link">Voir le projet en détail <span class="arrow">→︎</span></a>
+        </div>
+      </article>
+
+      <!-- ===== PROJET 2 ===== -->
+      <article class="slide">
+        <div class="slide-visual"><img src="https://i.imgur.com/mfBnQ6c.png" alt="Logo Amelis Santé"></div>
+        <div class="slide-body">
+          <p class="slide-index">Projet 02</p>
+          <h2>Amelis Santé</h2>
+          <div class="slide-tags"><span class="tag">Identité</span><span class="tag">Direction artistique</span><span class="tag">Web</span></div>
+          <p>Création complète d'une marque d'accompagnement de structures médicales : nom, logo, charte graphique, direction artistique et site internet.</p>
+          <a href="/projet-2/" class="slide-link">Voir le projet en détail <span class="arrow">→︎</span></a>
+        </div>
+      </article>
+
+      <!-- ===== PROJET 3 ===== -->
+      <article class="slide">
+        <div class="slide-visual"><img src="https://i.imgur.com/eGjk0OB.png" alt="Logo GEA Pour Tous"></div>
+        <div class="slide-body">
+          <p class="slide-index">Projet 03</p>
+          <h2>GEA Pour Tous</h2>
+          <div class="slide-tags"><span class="tag">Communication</span><span class="tag">Direction artistique</span><span class="tag">Web</span></div>
+          <p>Identité et site d'une association étudiante qui promeut le BUT GEA dans les lycées, où je suis chargé de communication.</p>
+          <a href="/projet-3/" class="slide-link">Voir le projet en détail <span class="arrow">→︎</span></a>
+        </div>
+      </article>
+
+      <!-- ===== PROJET 4 ===== -->
+      <article class="slide">
+        <div class="slide-visual"><img src="https://i.imgur.com/gXIKN8M.png" alt="Logo Smoke Out"></div>
+        <div class="slide-body">
+          <p class="slide-index">Projet 04</p>
+          <h2>Smoke Out</h2>
+          <div class="slide-tags"><span class="tag">Logo</span><span class="tag">Identité</span><span class="tag">Direction artistique</span></div>
+          <p>Identité visuelle d'une marque de détecteurs de fumée et d'alarmes incendie vendus par lots aux entreprises et aux usines.</p>
+          <a href="/projet-4/" class="slide-link">Voir le projet en détail <span class="arrow">→︎</span></a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- ===== NAVIGATION un par un ===== -->
+    <div class="viewer-nav">
+      <button class="nav-btn" id="prevBtn" aria-label="Projet précédent">←︎</button>
+
+      <div class="viewer-center">
+        <div class="counter"><b id="curNum">01</b> / <span id="totalNum">04</span></div>
+        <div class="dots" id="dots">
+          <button class="dot-btn active" aria-label="Projet 1"></button>
+          <button class="dot-btn" aria-label="Projet 2"></button>
+          <button class="dot-btn" aria-label="Projet 3"></button>
+          <button class="dot-btn" aria-label="Projet 4"></button>
+        </div>
+      </div>
+
+      <button class="nav-btn" id="nextBtn" aria-label="Projet suivant">→︎</button>
+    </div>
+
+  </div>
+</main>
+
+<!-- ============ PROJETS SECONDAIRES (carrousel non cliquable) ============ -->
+<section class="secondary" id="secondary">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">En complément</span>
+      <h2>Projets secondaires</h2>
+      <p>Un aperçu de mes autres réalisations, à titre d'illustration.</p>
+    </div>
+  </div>
+
+<style>
+  #secondary .sviewer{position:relative}
+  #secondary .sstage{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #secondary .sstage::-webkit-scrollbar{display:none}
+  #secondary .sstage.dragging{cursor:grabbing}
+  #secondary .sslide{flex:0 0 100%;scroll-snap-align:center;display:flex;justify-content:center;padding:8px 16px;box-sizing:border-box}
+  #secondary .scard2{width:min(440px,100%);background:#fff;border:1px solid rgba(22,17,15,.12);border-radius:18px;overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.08)}
+  #secondary .scard2-visual{aspect-ratio:4/3;background:#f3efe8;display:flex;align-items:center;justify-content:center}
+  #secondary .scard2-visual img{width:100%;height:100%;object-fit:contain;padding:20px;box-sizing:border-box}
+  #secondary .scard2-body{padding:18px 22px 22px;text-align:center}
+  #secondary .scard2-body h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.5rem;letter-spacing:-.02em;color:#15171c;margin:0 0 4px}
+  #secondary .scard2-tags{margin:0;color:#6f675f;font-size:.95rem}
+  #secondary .snav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:24px}
+  #secondary .arrowb{width:46px;height:46px;border-radius:999px;border:1px solid rgba(22,17,15,.2);background:#fff;color:#15171c;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .2s,opacity .2s;flex:none}
+  #secondary .arrowb:hover{border-color:#fc1d34}
+  #secondary .arrowb:disabled{opacity:.3;cursor:default}
+  #secondary .arrowb svg{width:18px;height:18px}
+  #secondary .sdots{display:flex;gap:9px;align-items:center}
+  #secondary .sdot{width:8px;height:8px;border-radius:999px;border:0;background:rgba(22,17,15,.22);padding:0;cursor:pointer;transition:width .25s,background .25s}
+  #secondary .sdot.active{background:#fc1d34;width:22px}
+  #secondary .scount{display:block;text-align:center;margin-top:12px;color:#6f675f;font-size:.9rem;font-variant-numeric:tabular-nums}
+</style>
+  <div class="wrap">
+    <div class="sviewer">
+      <div class="sstage" id="sStage">
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/Onbvire.png" alt="Logo Frigo16" loading="lazy"></div><div class="scard2-body"><h3>Frigo16</h3><p class="scard2-tags">Logo · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/eS92RNh.png" alt="Logo Azur Padel" loading="lazy"></div><div class="scard2-body"><h3>Azur Padel</h3><p class="scard2-tags">Logo</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/t7mGUbX.jpeg" alt="Affiche du film Bogota" loading="lazy"></div><div class="scard2-body"><h3>Bogota</h3><p class="scard2-tags">Affiche de film · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/mh94ggJ.jpeg" alt="Affiche du spectacle The Last Dance" loading="lazy"></div><div class="scard2-body"><h3>The Last Dance</h3><p class="scard2-tags">Affiche de spectacle · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/mpyENpu.png" alt="Affiche du concert Bunker" loading="lazy"></div><div class="scard2-body"><h3>Bunker</h3><p class="scard2-tags">Affiche de concert · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/lUXZP52.png" alt="Affiche du concert Depeche Mode" loading="lazy"></div><div class="scard2-body"><h3>Depeche Mode</h3><p class="scard2-tags">Affiche de concert · Concept</p></div></div></div>
+      <div class="sslide"><div class="scard2"><div class="scard2-visual"><img src="https://i.imgur.com/HEdC10w.png" alt="Affiche Meet &amp; Greet Alice Oseman" loading="lazy"></div><div class="scard2-body"><h3>Meet &amp; Greet — Alice Oseman</h3><p class="scard2-tags">Affiche · Concept</p></div></div></div>
+      </div>
+      <div class="snav">
+        <button class="arrowb" id="sPrev" aria-label="Précédent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="sdots" id="sDots"></div>
+        <button class="arrowb" id="sNext" aria-label="Suivant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+      <span class="scount"><span id="sCur">01</span> / <span id="sTotal">07</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap footer-row">
+    <a href="/" class="logo">Loïc<span>.</span>K</a>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/loickarrer" target="_blank" rel="noopener">LinkedIn ↗︎</a>
+      <a href="mailto:loickarrer@gmail.com">Email ↗︎</a>
+    </div>
+  </div>
+  <div class="footer-copy wrap">
+    <nav class="footer-legal">
+      <a href="/mentions-legales/">Mentions légales</a>
+      <a href="/cgv/">CGV</a>
+      <a href="/cgu/">CGU</a>
+      <a href="/confidentialite/">Politique de confidentialité</a>
+    </nav>
+    © <span id="year"></span> Loïc Karrer — Tous droits réservés.
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* menu mobile */
+  var burger = document.getElementById('burger');
+  var menu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function(){ menu.classList.toggle('open'); });
+  menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ menu.classList.remove('open'); }); });
+
+  /* ---- Glisser à la souris pour n'importe quel carrousel, SANS casser
+          les clics sur les liens. Sur écran tactile, le défilement
+          au doigt reste natif (aucun code requis). ---- */
+  function enableDrag(el, onEnd){
+    var down=false, moved=false, startX=0, startScroll=0;
+    el.addEventListener('mousedown', function(e){
+      down=true; moved=false; startX=e.pageX; startScroll=el.scrollLeft;
+    });
+    document.addEventListener('mousemove', function(e){
+      if(!down) return;
+      var dx = e.pageX - startX;
+      if(Math.abs(dx) > 4){ moved=true; el.classList.add('dragging'); }
+      if(moved){ e.preventDefault(); el.scrollLeft = startScroll - dx; }
+    });
+    document.addEventListener('mouseup', function(){
+      if(!down) return; down=false;
+      if(moved){
+        el.classList.remove('dragging');
+        // on neutralise uniquement le clic qui suit un vrai glissement
+        var kill = function(ev){ ev.preventDefault(); ev.stopPropagation(); document.removeEventListener('click', kill, true); };
+        document.addEventListener('click', kill, true);
+        setTimeout(function(){ document.removeEventListener('click', kill, true); }, 0);
+        if(onEnd) onEnd();
+      }
+    });
+    el.addEventListener('dragstart', function(e){ e.preventDefault(); });
+  }
+
+  /* ---- Carrousel principal (visionneuse projet par projet) ---- */
+  var stage = document.querySelector('.viewer-stage');
+  if(stage){
+    var slides = Array.prototype.slice.call(stage.querySelectorAll('.slide'));
+    var dots   = Array.prototype.slice.call(document.querySelectorAll('.dot-btn'));
+    var prev   = document.getElementById('prevBtn');
+    var next   = document.getElementById('nextBtn');
+    var curNum = document.getElementById('curNum');
+    var total  = slides.length, i = 0, raf = null;
+    var pad = function(n){ return String(n).padStart(2,'0'); };
+
+    document.getElementById('totalNum').textContent = pad(total);
+
+    function sync(){
+      i = Math.max(0, Math.min(total - 1, Math.round(stage.scrollLeft / stage.clientWidth)));
+      dots.forEach(function(d,idx){ d.classList.toggle('active', idx === i); });
+      curNum.textContent = pad(i + 1);
+      prev.disabled = (i === 0);
+      next.disabled = (i === total - 1);
+    }
+    function goTo(n){
+      n = Math.max(0, Math.min(total - 1, n));
+      stage.scrollTo({ left: n * stage.clientWidth, behavior: 'smooth' });
+    }
+    stage.addEventListener('scroll', function(){
+      if(raf) return;
+      raf = requestAnimationFrame(function(){ raf=null; sync(); });
+    }, {passive:true});
+
+    prev.addEventListener('click', function(){ goTo(i - 1); });
+    next.addEventListener('click', function(){ goTo(i + 1); });
+    dots.forEach(function(d,idx){ d.addEventListener('click', function(){ goTo(idx); }); });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowRight') goTo(i + 1);
+      if(e.key === 'ArrowLeft')  goTo(i - 1);
+    });
+
+    enableDrag(stage, function(){ goTo(Math.round(stage.scrollLeft / stage.clientWidth)); });
+
+    /* position initiale (et ouverture via ?p=2 depuis l'accueil) */
+    var p = new URLSearchParams(location.search).get('p');
+    var startI = Math.max(0, Math.min(total - 1, p ? parseInt(p,10) - 1 : 0));
+    requestAnimationFrame(function(){ stage.scrollLeft = startI * stage.clientWidth; sync(); });
+    window.addEventListener('resize', function(){ stage.scrollLeft = i * stage.clientWidth; });
+  }
+
+  /* ---- Carrousel secondaire (projet par projet) ---- */
+  var ss = document.getElementById('sStage');
+  if(ss){
+    var sslides = Array.prototype.slice.call(ss.querySelectorAll('.sslide'));
+    var sTotal = sslides.length, si = 0, sraf = null;
+    var spad = function(n){ return String(n).padStart(2,'0'); };
+    var sCur = document.getElementById('sCur');
+    var sTot = document.getElementById('sTotal');
+    var sPrev = document.getElementById('sPrev');
+    var sNext = document.getElementById('sNext');
+    var sDotsWrap = document.getElementById('sDots');
+    if(sTot) sTot.textContent = spad(sTotal);
+
+    var sdots = [];
+    for(var k=0;k<sTotal;k++){ (function(idx){
+      var b = document.createElement('button');
+      b.className = 'sdot'; b.type = 'button';
+      b.setAttribute('aria-label','Projet '+(idx+1));
+      b.addEventListener('click', function(){ sGoTo(idx); });
+      sDotsWrap.appendChild(b); sdots.push(b);
+    })(k); }
+
+    function sSync(){
+      si = Math.max(0, Math.min(sTotal-1, Math.round(ss.scrollLeft / ss.clientWidth)));
+      sdots.forEach(function(d,idx){ d.classList.toggle('active', idx === si); });
+      if(sCur) sCur.textContent = spad(si+1);
+      if(sPrev) sPrev.disabled = (si === 0);
+      if(sNext) sNext.disabled = (si === sTotal-1);
+    }
+    function sGoTo(n){
+      n = Math.max(0, Math.min(sTotal-1, n));
+      ss.scrollTo({ left: n * ss.clientWidth, behavior: 'smooth' });
+    }
+    ss.addEventListener('scroll', function(){
+      if(sraf) return;
+      sraf = requestAnimationFrame(function(){ sraf=null; sSync(); });
+    }, {passive:true});
+    if(sPrev) sPrev.addEventListener('click', function(){ sGoTo(si-1); });
+    if(sNext) sNext.addEventListener('click', function(){ sGoTo(si+1); });
+    enableDrag(ss, function(){ sGoTo(Math.round(ss.scrollLeft / ss.clientWidth)); });
+    requestAnimationFrame(function(){ ss.scrollLeft = 0; sSync(); });
+    window.addEventListener('resize', function(){ ss.scrollLeft = si * ss.clientWidth; });
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+<script src="/i18n.js"></script>
+</body>
+</html>
