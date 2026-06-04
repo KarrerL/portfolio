@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Amelis Santé — Identité de marque &amp; site | Loïc Karrer</title>
+<!-- SEO -->
+<meta name="description" content="Création complète d&#x27;une marque pour Amelis Santé : nom, logo, charte graphique, direction artistique et site web, par Loïc Karrer." />
+<link rel="canonical" href="https://www.loickarrer.cloud/projet-2/" />
+<meta name="author" content="Loïc Karrer" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#15171c" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Loïc Karrer — Portfolio" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Amelis Santé — Identité de marque &amp; site | Loïc Karrer" />
+<meta property="og:description" content="Création complète d&#x27;une marque pour Amelis Santé : nom, logo, charte graphique, direction artistique et site web, par Loïc Karrer." />
+<meta property="og:url" content="https://www.loickarrer.cloud/projet-2/" />
+<meta property="og:image" content="https://www.loickarrer.cloud/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Loïc Karrer — Portfolio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Amelis Santé — Identité de marque &amp; site | Loïc Karrer" />
+<meta name="twitter:description" content="Création complète d&#x27;une marque pour Amelis Santé : nom, logo, charte graphique, direction artistique et site web, par Loïc Karrer." />
+<meta name="twitter:image" content="https://www.loickarrer.cloud/og-image.png" />
+<!-- /SEO -->
+<!-- Voir projet-1.html pour le guide de personnalisation détaillé -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header id="header" class="scrolled">
+  <div class="wrap nav">
+    <a href="/" class="logo">Loïc<span>.</span>K</a>
+    <ul class="nav-links">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/#about">Moi</a></li>
+      <li><a href="/projets/" class="current">Projets</a></li>
+      <li><a href="/#services">Freelance</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+    <a href="/#contact" class="btn btn--solid nav-cta">Me contacter</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="/">Accueil</a>
+  <a href="/#about">Moi</a>
+  <a href="/projets/">Projets</a>
+  <a href="/#services">Freelance</a>
+  <a href="/#contact">Contact</a>
+</nav>
+
+<main class="project-page">
+  <div class="wrap">
+
+    <a href="/projets/" class="back-link"><span class="arrow">←︎</span> Tous les projets</a>
+
+    <div class="proj-hero reveal">
+      <span class="eyebrow">Identité de marque & site internet</span>
+      <h1>Amelis Santé</h1>
+      <p class="proj-tagline">La création complète, de A à Z, d'une entreprise d'accompagnement et de gestion de structures médicales : du nom jusqu'au site.</p>
+      <span class="btn btn--disabled" aria-disabled="true">Site indisponible</span>
+    </div>
+
+    <div class="proj-layout">
+      <div class="proj-main">
+
+        <div class="proj-block reveal">
+          <h2>Le logo</h2>
+          <div class="logo-box"><img src="https://i.imgur.com/mfBnQ6c.png" alt="Logo Amelis Santé"></div>
+        </div>
+
+        <div class="proj-block reveal">
+          <h2>Le brief</h2>
+          <p>Amelis Santé accompagne le développement et la gestion de centres médicaux et de cabinets de médecins. Le projet partait d'une page blanche : il fallait donner une existence visuelle à cette entreprise, de son nom jusqu'à son site internet.</p>
+          <p>J'ai imaginé le nom de la marque, conçu son logo, défini sa charte graphique et sa direction artistique, puis décliné l'ensemble dans un site. L'objectif : inspirer le sérieux et la confiance attendus dans le secteur médical, tout en restant moderne et accessible.</p>
+        </div>
+
+        <div class="proj-block reveal">
+          <h2>Photos du projet</h2>
+
+          <div class="gallery">
+            <div class="shot wide"><img src="https://i.imgur.com/tvYVw1N.png" alt="Amelis Santé — visuel"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <aside class="fiche reveal d1">
+        <div class="fiche-row">
+          <span class="fiche-label">Type de projet</span>
+          <span class="fiche-value">Identité de marque & site</span>
+        </div>
+        <div class="fiche-row">
+          <span class="fiche-label">Compétences</span>
+          <div class="fiche-tags">
+            <span class="tag">Naming</span>
+            <span class="tag">Direction artistique</span>
+            <span class="tag">UX/UI</span>
+          </div>
+        </div>
+        <div class="fiche-row">
+          <span class="fiche-label">Outils utilisés</span>
+          <div class="fiche-tools">
+            <span class="tool" title="Visual Studio Code"><svg viewBox="0 0 24 24"><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg></span>
+            <span class="tool" title="Photoshop"><svg viewBox="0 0 24 24"><path d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"/></svg></span>
+            <span class="tool" title="Illustrator"><svg viewBox="0 0 24 24"><path d="M10.53 10.73c-.1-.31-.19-.61-.29-.92-.1-.31-.19-.6-.27-.89-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29-.15.48-.3.98-.46 1.48-.14.51-.29.98-.44 1.4h2.54c-.06-.211-.14-.46-.23-.721-.09-.269-.18-.559-.27-.859zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zM14.7 16.83h-2.091c-.069.01-.139-.04-.159-.11l-.82-2.38H7.91l-.76 2.35c-.02.09-.1.15-.19.141H5.08c-.11 0-.14-.061-.11-.18L8.19 7.38c.03-.1.06-.21.1-.33.04-.21.06-.43.06-.65-.01-.05.03-.1.08-.11h2.59c.08 0 .12.03.13.08l3.65 10.3c.03.109 0 .16-.1.16zm3.4-.15c0 .11-.039.16-.129.16H16.01c-.1 0-.15-.061-.15-.16v-7.7c0-.1.041-.14.131-.14h1.98c.09 0 .129.05.129.14v7.7zm-.209-9.03c-.231.24-.571.37-.911.35-.33.01-.65-.12-.891-.35-.23-.25-.35-.58-.34-.92-.01-.34.12-.66.359-.89.242-.23.562-.35.892-.35.391 0 .689.12.91.35.22.24.34.56.33.89.01.34-.11.67-.349.92z"/></svg></span>
+          </div>
+        </div>
+        <div class="fiche-row">
+          <span class="fiche-label">Date de création</span>
+          <span class="fiche-value">Avril 2026</span>
+        </div>
+        <div class="fiche-row">
+          <span class="fiche-label">Cible</span>
+          <span class="fiche-text">Gérants de centres médicaux, médecins et professionnels de santé souhaitant être accompagnés dans leur développement.</span>
+        </div>
+        <div class="fiche-row">
+          <span class="fiche-label">Couleurs utilisées</span>
+          <div class="swatches">
+            <div class="swatch"><i style="background:#122d1f"></i><span>#122d1f</span></div>
+            <div class="swatch"><i style="background:#47bc26"></i><span>#47bc26</span></div>
+            <div class="swatch"><i style="background:#ffffff"></i><span>#ffffff</span></div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <div class="proj-bottom-nav">
+      <a href="/projet-1/" class="prev"><small>Projet précédent</small>←︎ Pôle Santé Antibes</a>
+      <a href="/projet-3/" class="next"><small>Projet suivant</small>GEA Pour Tous →︎</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <a href="/" class="logo">Loïc<span>.</span>K</a>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/loickarrer" target="_blank" rel="noopener">LinkedIn ↗︎</a>
+      <a href="mailto:loickarrer@gmail.com">Email ↗︎</a>
+    </div>
+  </div>
+  <div class="footer-copy wrap">
+    <nav class="footer-legal">
+      <a href="/mentions-legales/">Mentions légales</a>
+      <a href="/cgv/">CGV</a>
+      <a href="/cgu/">CGU</a>
+      <a href="/confidentialite/">Politique de confidentialité</a>
+    </nav>
+    © <span id="year"></span> Loïc Karrer — Tous droits réservés.
+  </div>
+</footer>
+
+<script>
+(function(){
+  var burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu');
+  burger.addEventListener('click',function(){menu.classList.toggle('open');});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');});});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+<script src="/i18n.js"></script>
+</body>
+</html>
