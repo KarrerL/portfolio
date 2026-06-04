@@ -53,18 +53,6 @@
 }
 </script>
 <!-- /SEO -->
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║  GUIDE DE PERSONNALISATION                                         ║
-  ╠══════════════════════════════════════════════════════════════════╣
-  ║  • COULEURS / POLICES →︎ fichier styles.css, bloc « :root »         ║
-  ║  • INFOS PERSO        →︎ balises « ⬇ À MODIFIER » ci-dessous         ║
-  ║  • PHOTO              →︎ section HERO (.hero-photo)                  ║
-  ║  • LOGOS LOGICIELS    →︎ section COMPÉTENCES                         ║
-  ║  • PROJETS            →︎ fichier projets.html                        ║
-  ║  • CONTACT / RÉSEAUX  →︎ section CONTACT + FOOTER                    ║
-  ╚══════════════════════════════════════════════════════════════════╝
--->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +72,7 @@
 <!-- ============ HEADER ============ -->
 <header id="header">
   <div class="wrap nav">
-    <a href="#hero" class="logo">Loïc<span>.</span>K</a> <!-- ⬇ À MODIFIER : logo / monogramme -->
+    <a href="#hero" class="logo">Loïc<span>.</span>K</a>
     <ul class="nav-links">
       <li><a href="#hero">Accueil</a></li>
       <li><a href="#about">Moi</a></li>
@@ -109,7 +97,7 @@
 <section class="hero" id="hero">
   <div class="wrap hero-grid">
     <div>
-      <!-- ⬇ À MODIFIER : accroche, rôle, statut -->
+
       <h1 class="reveal">La rigueur de la gestion,<br>au service de <em>vos projets.</em></h1>
       <p class="hero-role reveal d1">Étudiant en BUT GEA — Gestion des Entreprises et des Administrations</p>
       <p class="hero-status reveal d1">Actuellement en recherche d'alternance / stage</p>
@@ -119,8 +107,6 @@
       </div>
     </div>
 
-    <!-- ⬇ À MODIFIER : ta photo. Remplace tout ce <div> par :
-         <img src="ma-photo.jpg" alt="Loïc Karrer" class="hero-photo"> -->
     <div class="hero-photo reveal d1">
       <div class="hero-slideshow" role="img" aria-label="Photos de Loïc Karrer">
         <img src="https://i.imgur.com/tLniBxB.jpeg" alt="Loïc Karrer" class="hero-slide is-active" loading="eager">
@@ -138,11 +124,9 @@
     <div class="section-head reveal">
       <span class="eyebrow">Mes outils</span>
       <h2>Les logiciels que je maîtrise.</h2>
-      <p>Texte provisoire — quelques mots sur ta manière de travailler avec ces outils au quotidien.</p>
+      <p>De la création graphique à l'intégration web, j'utilise chaque logiciel là où il est le plus pertinent — du visuel sur Affinity Designer et la suite Adobe jusqu'à la mise en ligne sur VS Code.</p>
     </div>
 
-    <!-- ⬇ À MODIFIER : pour ajouter/retirer un logiciel, copie une .logo-cell,
-         remplace le SVG (n'importe quel logo SVG fonctionne) + le nom. -->
     <div class="logos reveal d1">
       <div class="logo-cell"><svg viewBox="0 0 24 24"><path d="M10.44 0L0 18.083v5.197a.72.72 0 00.713.72h10.023L5.7 15.277 14.52 0zm5.16 0l-4.86 8.418 3.718 6.439H24V.718A.72.72 0 0023.28 0zm-5.4 9.353l-2.064 3.575a1.289 1.289 0 000 1.288c.23.4.656.64 1.117.64h4.125zm-3.122 6.44L11.816 24h11.471a.72.72 0 00.713-.718v-7.49Z"/></svg><span>Affinity Designer</span></div>
       <div class="logo-cell"><svg viewBox="0 0 24 24"><path d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"/></svg><span>Photoshop</span></div>
@@ -159,13 +143,22 @@
   <div class="wrap about-grid">
     <div class="reveal">
       <span class="eyebrow">À propos</span>
-      <!-- ⬇ À MODIFIER : phrase d'accroche personnelle -->
+
       <p class="about-big">Apprendre vite, créer, et un jour <b>entreprendre par moi-même.</b></p>
     </div>
     <div class="about-text reveal d1">
       <p>Étudiant franco-américain de 23 ans, je suis en troisième année de BUT GEA à l'IUT Nice Côte d'Azur. Je me forme à la gestion avec un objectif clair en tête : créer un jour ma propre entreprise. J'ai surtout appris en autodidacte, tout en construisant de vraies expériences, aussi bien universitaires que professionnelles.</p>
       <p>Rigoureux, ponctuel et sérieux, je suis à l'aise en équipe et je m'adapte très vite à un nouvel environnement. J'apprends en continu, et je suis aujourd'hui à la recherche d'expériences pour mettre tout cela en pratique.</p>
       <a href="#contact" class="about-link">Discutons ensemble <span class="arrow">↗︎</span></a>
+    </div>
+  </div>
+  <div class="wrap reveal d2" style="margin-top:clamp(30px,5vw,52px)">
+    <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+      <strong style="font-family:'Bricolage Grotesque',sans-serif;font-size:1.1rem;color:#15171c">IUT Nice Côte d'Azur</strong>
+      <span style="color:#6f675f;font-size:.95rem">41 Boulevard Napoléon III, 06200 Nice</span>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;border:1px solid rgba(22,17,15,.12);box-shadow:0 10px 30px rgba(0,0,0,.06);line-height:0">
+      <iframe title="Carte — IUT Nice Côte d'Azur" src="https://www.google.com/maps?q=41+Boulevard+Napol%C3%A9on+III,+06200+Nice&z=15&output=embed" width="100%" height="320" style="border:0;display:block;width:100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -250,7 +243,6 @@
       <span class="pill">Toutes les prestations sont sur devis</span>
     </div>
 
-    <!-- ⬇ À MODIFIER : ajoute/retire un service en copiant un bloc .service -->
     <div class="services-grid reveal d1">
       <div class="service">
         <span class="s-num">01</span>
@@ -283,7 +275,6 @@
     <h2 class="reveal d1">Travaillons <em>ensemble.</em></h2>
     <p class="contact-sub reveal d2">Une alternance, un stage, un projet ou simplement échanger&nbsp;? Je réponds rapidement.</p>
 
-    <!-- ⬇ À MODIFIER : email, téléphone, ville -->
     <div class="contact-info reveal d2">
       <a href="mailto:loickarrer@gmail.com">
         <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>

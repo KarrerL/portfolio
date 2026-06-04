@@ -51,12 +51,20 @@
 
     "Mes outils":{en:"My tools",es:"Mis herramientas",zh:"我的工具",ja:"ツール",it:"I miei strumenti"},
     "Les logiciels que je maîtrise.":{en:"The software I master.",es:"El software que domino.",zh:"我精通的软件。",ja:"使いこなすソフトウェア。",it:"I software che padroneggio."},
-    "Texte provisoire — quelques mots sur ta manière de travailler avec ces outils au quotidien.":{en:"Placeholder text — a few words about how you work with these tools day to day.",es:"Texto provisional — unas palabras sobre cómo trabajas con estas herramientas a diario.",zh:"占位文字 — 简述你日常如何使用这些工具。",ja:"仮テキスト — これらのツールを日々どう使うかを一言。",it:"Testo provvisorio — qualche parola su come lavori con questi strumenti ogni giorno."},
+    "De la création graphique à l'intégration web, j'utilise chaque logiciel là où il est le plus pertinent — du visuel sur Affinity Designer et la suite Adobe jusqu'à la mise en ligne sur VS Code.":{en:"From graphic design to web development, I use each piece of software where it fits best — from visuals in Affinity Designer and the Adobe suite to going live with VS Code.",es:"Del diseño gráfico a la integración web, uso cada programa donde resulta más pertinente: del aspecto visual en Affinity Designer y la suite de Adobe hasta la publicación con VS Code.",zh:"从平面设计到网页开发，我让每款软件各尽其用——视觉创作用 Affinity Designer 和 Adobe，上线则用 VS Code。",ja:"グラフィックデザインからWeb実装まで、それぞれのソフトを最適な場面で使い分けます。ビジュアルは Affinity Designer や Adobe、公開は VS Code で。",it:"Dal design grafico all'integrazione web, uso ogni software dove rende meglio: dal visivo con Affinity Designer e la suite Adobe fino alla pubblicazione con VS Code."},
 
     "À propos":{en:"About",es:"Acerca de",zh:"关于",ja:"自己紹介",it:"Chi sono"},
     "Apprendre vite, créer, et un jour":{en:"Learn fast, create, and one day",es:"Aprender rápido, crear y un día",zh:"快速学习、创造，终有一天",ja:"速く学び、創り、いつか",it:"Imparare in fretta, creare e un giorno"},
     "entreprendre par moi-même.":{en:"start my own business.",es:"emprender por mí mismo.",zh:"自己创业。",ja:"自分で起業する。",it:"mettermi in proprio."},
     "Discutons ensemble":{en:"Let's talk",es:"Hablemos",zh:"一起聊聊",ja:"話しましょう",it:"Parliamone"},
+
+    "Langues":{en:"Languages",es:"Idiomas",zh:"语言",ja:"言語",it:"Lingue"},
+    "Les langues que je parle.":{en:"The languages I speak.",es:"Los idiomas que hablo.",zh:"我会说的语言。",ja:"話せる言語。",it:"Le lingue che parlo."},
+    "À l'écrit comme à l'oral.":{en:"Written and spoken.",es:"Escrito y hablado.",zh:"书面与口语皆可。",ja:"読み書きも会話も。",it:"Scritto e parlato."},
+    "Français":{en:"French",es:"Francés",zh:"法语",ja:"フランス語",it:"Francese"},
+    "Anglais":{en:"English",es:"Inglés",zh:"英语",ja:"英語",it:"Inglese"},
+    "Langue maternelle":{en:"Native language",es:"Lengua materna",zh:"母语",ja:"母語",it:"Lingua madre"},
+    "Couramment":{en:"Fluent",es:"Con fluidez",zh:"流利",ja:"流暢に",it:"Fluente"},
 
     "Sélection":{en:"Selection",es:"Selección",zh:"精选",ja:"セレクション",it:"Selezione"},
     "Mes projets.":{en:"My projects.",es:"Mis proyectos.",zh:"我的项目。",ja:"プロジェクト。",it:"I miei progetti."},
