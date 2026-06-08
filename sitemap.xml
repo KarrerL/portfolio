@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.loickarrer.cloud/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.loickarrer.cloud/projets/</loc><priority>0.9</priority></url>
-  <url><loc>https://www.loickarrer.cloud/projet-1/</loc><priority>0.7</priority></url>
-  <url><loc>https://www.loickarrer.cloud/projet-2/</loc><priority>0.7</priority></url>
-  <url><loc>https://www.loickarrer.cloud/projet-3/</loc><priority>0.7</priority></url>
-  <url><loc>https://www.loickarrer.cloud/projet-4/</loc><priority>0.7</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/</loc><lastmod>2026-06-02</lastmod><priority>1.0</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/projets.html</loc><lastmod>2026-06-02</lastmod><priority>0.9</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/projet-1.html</loc><lastmod>2026-06-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/projet-2.html</loc><lastmod>2026-06-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/projet-3.html</loc><lastmod>2026-06-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://karrerl.github.io/portfolio/projet-4.html</loc><lastmod>2026-06-02</lastmod><priority>0.7</priority></url>
 </urlset>

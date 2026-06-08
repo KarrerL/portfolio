@@ -96,6 +96,15 @@
     "Une alternance, un stage, un projet ou simplement échanger\u00a0? Je réponds rapidement.":{en:"A work-study placement, an internship, a project, or just a chat? I reply quickly.",es:"¿Una alternancia, unas prácticas, un proyecto o simplemente charlar? Respondo rápido.",zh:"实习、学徒、项目，或只是聊聊？我会很快回复。",ja:"アルテルナンス、インターン、プロジェクト、あるいは雑談でも？すぐにお返事します。",it:"Un'alternanza, uno stage, un progetto o semplicemente due chiacchiere? Rispondo in fretta."},
     "Envoyer un message":{en:"Send a message",es:"Enviar un mensaje",zh:"发送消息",ja:"メッセージを送る",it:"Invia un messaggio"},
 
+    "Newsletter":{en:"Newsletter",es:"Newsletter",zh:"邮件订阅",ja:"ニュースレター",it:"Newsletter"},
+    "Restez informé.":{en:"Stay in the loop.",es:"Mantente al día.",zh:"保持关注。",ja:"最新情報をお届け。",it:"Resta aggiornato."},
+    "Mes nouveaux projets, mes disponibilités et quelques coulisses, directement dans votre boîte mail.":{en:"My latest projects, my availability and a few behind-the-scenes, straight to your inbox.",es:"Mis nuevos proyectos, mi disponibilidad y algunos entresijos, directamente en tu correo.",zh:"我的新项目、空档安排和一些幕后，直接发送到您的邮箱。",ja:"新しいプロジェクト、空き状況、舞台裏を、あなたのメールへ直接お届けします。",it:"I miei nuovi progetti, le mie disponibilità e qualche retroscena, direttamente nella tua casella."},
+    "Votre adresse e-mail":{en:"Your email address",es:"Tu correo electrónico",zh:"您的邮箱地址",ja:"メールアドレス",it:"Il tuo indirizzo email"},
+    "S'inscrire":{en:"Subscribe",es:"Suscribirse",zh:"订阅",ja:"登録する",it:"Iscriviti"},
+    "Désinscription en un clic, à tout moment.":{en:"Unsubscribe in one click, anytime.",es:"Cancela la suscripción en un clic, cuando quieras.",zh:"随时一键退订。",ja:"いつでもワンクリックで解除できます。",it:"Disiscrizione in un clic, quando vuoi."},
+    "Inscription confirmée\u00a0!":{en:"You're subscribed!",es:"¡Suscripción confirmada!",zh:"订阅成功！",ja:"登録が完了しました！",it:"Iscrizione confermata!"},
+    "Merci\u00a0! Vous recevrez bientôt de mes nouvelles.":{en:"Thank you! You'll hear from me soon.",es:"¡Gracias! Pronto tendrás noticias mías.",zh:"谢谢！您很快就会收到我的消息。",ja:"ありがとうございます！近いうちにお知らせします。",it:"Grazie! Presto avrai mie notizie."},
+
     "Décrivez votre projet en quelques champs, je reviens vers vous rapidement.":{en:"Describe your project in a few fields, I'll get back to you quickly.",es:"Describe tu proyecto en unos campos y te respondo rápido.",zh:"用几个字段描述您的项目，我会尽快回复。",ja:"いくつかの項目でプロジェクトをご記入ください。すぐにご連絡します。",it:"Descrivi il tuo progetto in pochi campi, ti rispondo presto."},
     "Prénom":{en:"First name",es:"Nombre",zh:"名字",ja:"名",it:"Nome"},
     "Nom":{en:"Last name",es:"Apellido",zh:"姓氏",ja:"姓",it:"Cognome"},

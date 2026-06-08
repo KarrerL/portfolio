@@ -296,9 +296,24 @@
   </div>
 </section>
 
+<!-- ============ NEWSLETTER ============ -->
+<section class="section newsletter" id="newsletter">
+  <div class="wrap" style="max-width:640px;text-align:center">
+    <span class="eyebrow reveal" style="justify-content:center">Newsletter</span>
+    <h2 class="reveal d1">Restez informé.</h2>
+    <p class="reveal d2" style="color:#6f675f;max-width:48ch;margin:0 auto 28px">Mes nouveaux projets, mes disponibilités et quelques coulisses, directement dans votre boîte mail.</p>
+    <form class="nl-form reveal d2" action="https://formspree.io/f/mwvjooaq" method="POST" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;max-width:480px;margin:0 auto">
+      <input type="email" name="email" required placeholder="Votre adresse e-mail" aria-label="Votre adresse e-mail" style="flex:1 1 240px;min-width:0;padding:14px 18px;border:1px solid rgba(22,17,15,.2);border-radius:999px;font:inherit;background:#fff;color:#15171c">
+      <input type="hidden" name="_subject" value="Nouvelle inscription newsletter">
+      <button type="submit" style="background:#15171c;color:#f6f3ee;border:0;padding:14px 24px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer">S'inscrire</button>
+    </form>
+    <p class="nl-note reveal d3" style="color:#8a8d97;font-size:.85rem;margin-top:16px">Désinscription en un clic, à tout moment.</p>
+    <div class="nl-success" hidden style="margin-top:18px;color:#15171c;font-size:1.05rem"><strong>Inscription confirmée&nbsp;!</strong><br>Merci&nbsp;! Vous recevrez bientôt de mes nouvelles.</div>
+  </div>
+</section>
+
 <!-- ============ MODALE — FORMULAIRE DE DEVIS ============ -->
-<!-- Envoi via Netlify Forms. Les réponses arrivent dans Netlify > Forms,
-     et par mail une fois la notification activée. -->
+<!-- Envoi via Formspree — les demandes arrivent par e-mail. -->
 <div class="modal" id="devisModal" role="dialog" aria-modal="true" aria-labelledby="devisTitle">
   <div class="modal-overlay" data-close></div>
   <div class="modal-card">
@@ -308,9 +323,9 @@
       <h3 id="devisTitle">Demander un devis</h3>
       <p class="modal-sub">Décrivez votre projet en quelques champs, je reviens vers vous rapidement.</p>
 
-      <form name="devis" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="devisForm">
-        <input type="hidden" name="form-name" value="devis">
-        <p hidden><label>Ne pas remplir : <input name="bot-field"></label></p>
+      <form action="https://formspree.io/f/mojzddrv" method="POST" id="devisForm">
+        <input type="hidden" name="_subject" value="Nouvelle demande de devis">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <div class="field-row">
           <div class="field">
@@ -392,6 +407,7 @@
   </div>
   <div class="footer-copy wrap">
     <nav class="footer-legal">
+      <a href="/newsletter/">Newsletter</a>
       <a href="/mentions-legales/">Mentions légales</a>
       <a href="/cgv/">CGV</a>
       <a href="/cgu/">CGU</a>
@@ -439,16 +455,18 @@
     modal.querySelectorAll('[data-close]').forEach(function(el){ el.addEventListener('click', closeModal); });
     document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
 
-    /* envoi du formulaire vers Netlify Forms (sans quitter la page) */
+    /* envoi du formulaire vers Formspree (sans quitter la page) */
     var form = document.getElementById('devisForm');
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      var data = new FormData(form);
-      var body = new URLSearchParams(data).toString();
-      fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: body })
-        .then(function(){
-          document.getElementById('devisFormWrap').hidden = true;
-          document.getElementById('devisSuccess').hidden = false;
+      fetch(form.action, { method:'POST', body:new FormData(form), headers:{'Accept':'application/json'} })
+        .then(function(r){
+          if(r.ok){
+            document.getElementById('devisFormWrap').hidden = true;
+            document.getElementById('devisSuccess').hidden = false;
+          } else {
+            alert("Une erreur est survenue. Vous pouvez aussi m'écrire à loickarrer@gmail.com.");
+          }
         })
         .catch(function(){
           alert("Une erreur est survenue. Vous pouvez aussi m'écrire à loickarrer@gmail.com.");
