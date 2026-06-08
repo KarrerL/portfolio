@@ -66,8 +66,22 @@
       <input type="hidden" name="_subject" value="Nouvelle inscription newsletter">
       <button type="submit" style="background:#15171c;color:#f6f3ee;border:0;padding:14px 24px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer">S'inscrire</button>
     </form>
-    <p class="nl-note" style="color:#8a8d97;font-size:.85rem;margin-top:16px">Désinscription en un clic, à tout moment.</p>
-    <div class="nl-success" hidden style="margin-top:18px;color:#15171c;font-size:1.05rem"><strong>Inscription confirmée&nbsp;!</strong><br>Merci&nbsp;! Vous recevrez bientôt de mes nouvelles.</div>
+    <p class="nl-note" style="color:#8a8d97;font-size:.85rem;margin-top:16px;text-align:center">Désinscription en un clic, à tout moment.</p>
+    <div class="nl-success" hidden style="margin-top:18px;color:#15171c;font-size:1.05rem;text-align:center"><strong>Inscription confirmée&nbsp;!</strong><br>Merci&nbsp;! Vous recevrez bientôt de mes nouvelles.</div>
+  </div>
+  <div class="wrap nl-archive" style="max-width:640px;margin:64px auto 0">
+    <h2 style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;letter-spacing:-.02em;font-size:clamp(1.4rem,3.5vw,1.9rem);color:#15171c;text-align:center;margin:0 0 6px">Anciennes éditions</h2>
+    <p style="color:#6f675f;text-align:center;margin:0 auto 28px;max-width:46ch">Retrouvez ici les newsletters déjà envoyées.</p>
+    <div class="nl-issues" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px">
+      <p class="nl-empty" style="grid-column:1/-1;text-align:center;color:#8a8d97;background:#ece6dc;border-radius:14px;padding:28px 20px;margin:0">Les premières éditions arriveront bientôt. Inscrivez-vous pour ne rien manquer&nbsp;!</p>
+
+      <!-- ▼ MODÈLE — une édition = une image (lien Imgur). Duplique ce bloc, mets ton lien + un titre/date, et supprime le paragraphe "nl-empty" ci-dessus :
+      <a href="https://i.imgur.com/XXXX.png" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:#15171c">
+        <img src="https://i.imgur.com/XXXX.png" alt="Newsletter — Titre de l'édition" loading="lazy" style="width:100%;display:block;border-radius:14px;border:1px solid rgba(22,17,15,.12)">
+        <span style="display:block;margin-top:8px;font-size:.85rem;color:#8a8d97;text-align:center">Janvier 2026 · Titre de l'édition</span>
+      </a>
+      -->
+    </div>
   </div>
 </main>
 
