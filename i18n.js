@@ -104,6 +104,9 @@
     "Désinscription en un clic, à tout moment.":{en:"Unsubscribe in one click, anytime.",es:"Cancela la suscripción en un clic, cuando quieras.",zh:"随时一键退订。",ja:"いつでもワンクリックで解除できます。",it:"Disiscrizione in un clic, quando vuoi."},
     "Inscription confirmée\u00a0!":{en:"You're subscribed!",es:"¡Suscripción confirmada!",zh:"订阅成功！",ja:"登録が完了しました！",it:"Iscrizione confermata!"},
     "Merci\u00a0! Vous recevrez bientôt de mes nouvelles.":{en:"Thank you! You'll hear from me soon.",es:"¡Gracias! Pronto tendrás noticias mías.",zh:"谢谢！您很快就会收到我的消息。",ja:"ありがとうございます！近いうちにお知らせします。",it:"Grazie! Presto avrai mie notizie."},
+    "Anciennes éditions":{en:"Past issues",es:"Ediciones anteriores",zh:"往期内容",ja:"バックナンバー",it:"Edizioni precedenti"},
+    "Retrouvez ici les newsletters déjà envoyées.":{en:"Find the newsletters already sent here.",es:"Aquí encontrarás las newsletters ya enviadas.",zh:"在这里查看已发送的邮件。",ja:"これまでに配信したニュースレターはこちら。",it:"Qui trovi le newsletter già inviate."},
+    "Les premières éditions arriveront bientôt. Inscrivez-vous pour ne rien manquer\u00a0!":{en:"The first issues are coming soon. Subscribe so you don't miss out!",es:"Las primeras ediciones llegarán pronto. Suscríbete para no perderte nada.",zh:"首期内容即将推出，订阅以免错过！",ja:"最初の号は近日公開。お見逃しなく、ぜひご登録を！",it:"Le prime edizioni arriveranno presto. Iscriviti per non perderti nulla!"},
 
     "Décrivez votre projet en quelques champs, je reviens vers vous rapidement.":{en:"Describe your project in a few fields, I'll get back to you quickly.",es:"Describe tu proyecto en unos campos y te respondo rápido.",zh:"用几个字段描述您的项目，我会尽快回复。",ja:"いくつかの項目でプロジェクトをご記入ください。すぐにご連絡します。",it:"Descrivi il tuo progetto in pochi campi, ti rispondo presto."},
     "Prénom":{en:"First name",es:"Nombre",zh:"名字",ja:"名",it:"Nome"},
