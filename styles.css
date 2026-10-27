@@ -156,7 +156,7 @@ header.scrolled{background:rgba(246,243,238,.82);backdrop-filter:blur(14px);box-
 .about-link:hover .arrow{transform:translate(3px,-3px)}
 
 /* PROJETS — aperçu sur l'accueil (3 cartes qui mènent à la page projets) */
-.proj-teasers{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-bottom:42px}
+.proj-teasers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:42px}
 .teaser{
   display:flex;flex-direction:column;gap:.7rem;min-height:210px;
   border:1px solid var(--line);border-radius:18px;padding:28px;background:#fbf9f5;
@@ -290,7 +290,21 @@ footer{background:var(--ink);color:var(--on-dark-2);border-top:1px solid rgba(25
 .print .shot img{object-position:top}
 .print h3{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;font-size:1rem;line-height:1.25}
 .print small{display:block;font-size:.8rem;color:var(--muted);margin-top:.2rem}
+button.shot{width:100%;padding:0;font:inherit;cursor:zoom-in;transition:.4s var(--ease)}
+button.shot:hover,button.shot:focus-visible{transform:translateY(-4px);box-shadow:0 22px 46px -28px rgba(22,17,15,.45);border-color:transparent}
+button.shot:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(max-width:680px){ .gallery.prints{grid-template-columns:repeat(2,1fr)} }
+
+/* visionneuse des prints — toutes les pages, défilement vertical */
+.print-viewer{padding:clamp(10px,3vw,28px)}
+.pv-card{position:relative;display:flex;flex-direction:column;width:100%;max-width:860px;height:100%;max-height:94vh;background:var(--paper);border-radius:20px;overflow:hidden;box-shadow:0 40px 90px -30px rgba(0,0,0,.55);transform:translateY(16px);transition:.35s var(--ease)}
+.print-viewer.open .pv-card{transform:none}
+.pv-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 22px 16px;border-bottom:1px solid var(--line)}
+.pv-head h3{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;font-size:clamp(1.15rem,3vw,1.4rem);margin:0}
+.pv-head small{color:var(--muted);font-size:.85rem}
+.pv-head .modal-close{position:static;flex:none}
+.pv-pages{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:clamp(12px,3vw,26px);display:flex;flex-direction:column;gap:clamp(12px,2vw,20px);background:var(--paper-2)}
+.pv-pages img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,.12);background:#fff}
 
 /* fiche latérale */
 .fiche{position:sticky;top:100px;border:1px solid var(--line);border-radius:20px;padding:30px;background:#fbf9f5;display:flex;flex-direction:column;gap:1.5rem}
