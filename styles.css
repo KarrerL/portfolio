@@ -305,6 +305,7 @@ button.shot:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .pv-head .modal-close{position:static;flex:none}
 .pv-pages{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:clamp(12px,3vw,26px);display:flex;flex-direction:column;gap:clamp(12px,2vw,20px);background:var(--paper-2)}
 .pv-pages img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,.12);background:#fff}
+.pv-missing{padding:40px 20px;text-align:center;color:var(--muted);font-size:.95rem;border:1px dashed var(--line);border-radius:6px;background:var(--paper)}
 
 /* fiche latérale */
 .fiche{position:sticky;top:100px;border:1px solid var(--line);border-radius:20px;padding:30px;background:#fbf9f5;display:flex;flex-direction:column;gap:1.5rem}
