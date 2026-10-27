@@ -232,9 +232,16 @@
     pvPages.innerHTML='';
     for(var k=1;k<=n;k++){
       var img=document.createElement('img');
-      img.src='/img/promoca/'+slug+'/'+String(k).padStart(2,'0')+'.jpg';
       img.alt=pvTitle.textContent+' — page '+k;
       img.loading=k>2?'lazy':'eager';
+      /* page introuvable : message propre plutôt que le texte alternatif */
+      img.onerror=function(){
+        var miss=document.createElement('p');
+        miss.className='pv-missing';
+        miss.textContent='Page indisponible pour le moment.';
+        this.replaceWith(miss);
+      };
+      img.src='/img/promoca/'+slug+'-'+String(k).padStart(2,'0')+'.jpg';
       pvPages.appendChild(img);
     }
     pvPages.scrollTop=0;
